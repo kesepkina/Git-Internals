@@ -1,0 +1,21 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+gradle/
+gradlew
+*.bat
+build
+
+
+# idea confid
+.idea
+
+# old stages
+/Git Internals/*
+!/Git Internals/task/
+/Git Internals/task/*
+!/Git Internals/task/src/
+!/Git Internals/task/build.gradle
+!/Git Internals/task/build.gradle.kts
